@@ -40,7 +40,7 @@ function agnoster::context
   set host (hostname)
   if [ "$user" != "$DEFAULT_USER" ]; or [ -n "$SSH_CLIENT" ]
     # agnoster::segment black normal "$user@$host "
-    agnoster::segment black normal "curt的15寸Mac筆電 "
+    agnoster::segment black normal "$user "
   end
 end
 
